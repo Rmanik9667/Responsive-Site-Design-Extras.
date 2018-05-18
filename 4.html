@@ -1,0 +1,170 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .boxstyle{
+               background-color : #efefef; 
+                border-radius: 2px;
+                box-shadow: 2px 2px 2px 2px silver;
+                margin: 10px;
+            }
+            header{
+                height: 100px;
+            } 
+            .headingstyle{
+                text-align: center;
+                font-family: cursive;
+            }
+            nav{
+                background-color: efefef;
+                border-radius: 2px;
+            }
+            nav > a{
+                margin:20px;
+            }
+            .wrapper{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 60px;
+                margin-top: 40px;
+            }
+            main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            section{
+                flex-grow: 1;
+                flex-basis: 0%;
+            }
+            main > section{
+                flex-grow: 1;
+            }
+            @media only screen and(max-width:100px){
+                main{
+                    flex-direction: column;
+                }
+            }
+            section > h1{
+                position: relative;
+                top: -40px;
+            }
+            section:hover h1{
+                font-size: 40px;
+                transition: font-size 0.5s;
+            }   
+            section > h2 {
+                widows: 50px;
+                height: 45px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <header class="boxstyle headingstyle">
+            <h1>HEADER</h1>
+            <nav>
+                <a href="Home">HOME</a>
+                <a href="Destination">DESTINATION</a>
+                <a href="Services">SERVICES</a>
+                <a href="Contact">CONTACT</a>
+            </nav>
+            
+        </header>
+        <main>
+            <section class="boxstyle">
+                <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+            
+              <section class="boxstyle">
+               <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+            
+              <section class="boxstyle">
+                <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+        </main>
+       
+        <main>
+              <section class="boxstyle">
+               <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+            
+              <section class="boxstyle">
+                <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+            
+              <section class="boxstyle">
+               <h1 class="headingstyle">
+                SECTION
+                </h1>
+                <p>
+                Brief introduction on 
+                </p>
+                <p>
+                This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                    This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.This is simple so.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>

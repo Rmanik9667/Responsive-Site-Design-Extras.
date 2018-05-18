@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 4px;
+                background-color: white;
+                text-align: center;
+            }
+            #wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: whitesmoke;
+            }
+            header{
+                flex-grow: 1;
+                flex-basis: 100%;
+                background-color: antiquewhite;
+            }
+            nav{
+                flex-grow: 1;
+                background-color: aquamarine;
+            }
+            main{
+                flex-grow: 6;
+                height: 400px;
+                background-color: palegreen;
+            }
+            footer{
+                flex-grow: 1;
+                flex-basis: 100%;
+                background-color: palevioletred;
+            }
+            @media screen and (max-width:100px){
+                #wrapper{
+                    flex-basis: 100px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper"> 
+        <header>
+        HEADER
+        </header>
+    <nav>
+        NAVIGATION
+        </nav>
+            
+        <main>
+            MAIN
+        </main>
+        <footer>
+        FOOTER
+        </footer>
+        </div>
+    </body>
+</html>

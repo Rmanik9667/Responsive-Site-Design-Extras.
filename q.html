@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            :root{
+                --fgclr:red;
+            }
+            h1{
+                
+               line-height: 180px;
+                
+            }
+            header{
+                position: relative;
+                text-align:center;
+                color: var(--fgclr);
+                height: 120px;
+                font-size: 30px;
+                background-color: aqua;
+            }
+            div{
+                height: 50px;
+                width: 50px;
+                background-color: var(--fgclr);
+                animation: action 8s infinite;
+                position: relative;
+            }
+            @keyframes action{
+                    from{
+                        left: 0px;
+                    }
+                    to{
+                        left: calc(100% - 50px);
+                    }
+                }
+            
+        </style>
+    </head>
+        <body>
+        <header>
+            
+            <h1>ANIMATION</h1>
+        </header>
+<div>
+            </div>
+    
+    </body>
+</html>

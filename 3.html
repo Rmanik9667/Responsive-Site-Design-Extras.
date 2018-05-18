@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <style>
+         *{
+             text-align: center;
+             background-color: #efefef;
+             margin: 4px;
+         }
+         body{
+             background-color: white;
+             display:grid;
+             grid-template-columns: 400px auto 200px;
+         }
+         header{
+             grid-column-start: 1;
+             grid-column-end: 4;
+         }
+         nav{
+            grid-row-start: 2;
+             grid-row-end: 4;
+         }
+         main{height: 500px;}
+         footer{
+              grid-column-start: 1;
+             grid-column-end: 4;
+         }
+         @media only screen and(max-width:760px){
+             grid-template-column:100%;
+         }
+      /*   body > * {
+             grid-column-start:1;
+             grid-column-end: 4;
+         }*/
+        </style>   
+        
+    </head>
+    <body>
+    <header>
+        HEADER
+        </header>
+        <nav>
+            NAVIGATION
+        </nav>
+        <main>
+        MAIN
+        </main>
+        <aside>
+        SIDE
+        </aside>
+    <footer>
+    FOOTER
+    </footer>
+    </body>
+</html>
+
